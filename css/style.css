@@ -119,8 +119,16 @@ section.show-animate .animate {
     transform: translateX(0) rotate(0deg);
 }
 
-.anim-rotate {
+.rotate {
     transform: rotate(65deg);
+}
+
+.spin {
+    animation: spin 2s linear infinite;
+}
+
+.flip {
+    transform: rotateY(180deg);
 }
 
 p.animate {

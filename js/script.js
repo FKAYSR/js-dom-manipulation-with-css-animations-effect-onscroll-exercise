@@ -53,29 +53,27 @@ soundDog.src = "sound/dog.wav";
 if (horseBtn) {
   horseBtn.addEventListener("click", () => {
     soundHorse.play();
+    horseBtn.classList.remove("animate")
+    horseBtn.classList.toggle("rotate");
   });
 }
-
-if (horseBtn) {
-    horseBtn.addEventListener("click", function() {
-        this.classList.toggle("anim-rotate");
-    })
-}
-
 
 if (polarBtn) {
   polarBtn.addEventListener("click", () => {
     soundPolar.play();
+    polarBtn.classList.remove("animate")
+    polarBtn.classList.toggle("spin");
   });
 }
 
 if (dogBtn) {
   dogBtn.addEventListener("click", () => {
     soundDog.play();
+    dogBtn.classList.remove("animate")
+    dogBtn.classList.toggle("flip");
   });
 }
 
 
 //#endregion
-
 
