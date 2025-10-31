@@ -119,6 +119,10 @@ section.show-animate .animate {
     transform: translateX(0) rotate(0deg);
 }
 
+.anim-rotate {
+    transform: rotate(65deg);
+}
+
 p.animate {
     transition-delay: 0.3s;
 }
